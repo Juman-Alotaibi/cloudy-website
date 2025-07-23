@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meet Cloudy</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #ffffff;
+      color: #000;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meet My Cat "Cloudy" 🐱</h1>
+  <img src="https://i.postimg.cc/4y7HHL6R/cloudy-jpg.jpg" alt="My cat Cloudy">
+  <p>Cloudy is a calm and lovely gray cat. She loves sitting by the window and playing with yarn.</p>
+  <button onclick="window.location.href='details.html'">Learn more about her</button>
+</body>
+</html>
